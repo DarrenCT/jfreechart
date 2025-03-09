@@ -183,28 +183,28 @@
                 <!-- Target the production classes (all classes in org.jfree) -->
                 <targetClasses>
                     <param>org.jfree.chart.JFreeChart</param>
-                    <param>org.jfree.chart.ChartFactory</param>
                     <param>org.jfree.chart.ChartRenderingInfo</param>
-                    <param>org.jfree.chart.ChartUtils</param>
-                    <param>org.jfree.chart.annotations.CategoryLineAnnotation</param>
-                    <param>org.jfree.chart.annotations.CategoryPointerAnnotation</param>
+                    <param>org.jfree.chart.annotations.CategoryLineAnnotation</param>                    
                     <param>org.jfree.chart.annotations.CategoryTextAnnotation</param>
-                    <param>org.jfree.chart.annotations.XYBoxAnnotation</param>
-                    <param>org.jfree.chart.ChartColor</param>
-                    <param>org.jfree.chart.annotations.XYDrawableAnnotation</param>
+                    <param>org.jfree.chart.axis.AxisSpace</param>
+                    <param>org.jfree.chart.axis.Axis</param>
+                    <param>org.jfree.chart.axis.CategoryAxis</param>
+                    <param>org.jfree.chart.axis.CategoryLabelPosition</param>
+                    <param>org.jfree.chart.axis.CategoryLabelPositions</param>
+                    <param>org.jfree.chart.axis.ExtendedCategoryAxis</param>
                 </targetClasses>
                 <!-- Target only test classes -->
                 <targetTests>
                     <param>org.jfree.chart.AreaChartTest</param>
-                    <param>org.jfree.chart.BarChartTest</param>
-                    <param>org.jfree.chart.ChartRenderingInfoTest</param>
-                    <param>org.jfree.chart.MeterChartTest</param>   
+                    <param>org.jfree.chart.ChartRenderingInfoTest</param>  
                     <param>org.jfree.chart.annotations.CategoryLineAnnotationTest</param>   
-                    <param>org.jfree.chart.annotations.CategoryLineAnnotationTest</param>     
-                    <param>org.jfree.chart.annotations.CategoryTextAnnotationTest</param>     
-                    <param>org.jfree.chart.annotations.XYAreaChartTest</param>    
-                    <param>org.jfree.chart.TestUtils</param>
-                    <param>org.jfree.chart.ScatterPlotTest</param>
+                    <param>org.jfree.chart.annotations.CategoryTextAnnotationTest</param>                        
+                    <param>org.jfree.chart.axis.AxisSpaceTest</param>
+                    <param>org.jfree.chart.axis.AxisTest</param>
+                    <param>org.jfree.chart.axis.CategoryAxisTest</param>
+                    <param>org.jfree.chart.axis.CategoryLabelPositionTest</param>
+                    <param>org.jfree.chart.axis.CategoryLabelPositionsTest</param>
+                    <param>org.jfree.chart.axis.ExtendedCategoryAxisTest</param>
                 </targetTests>
             </configuration>
         </plugin>
